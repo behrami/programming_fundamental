@@ -15,6 +15,9 @@ while input != "go home" && energy>0
     distance += 5
     energy -=10
     puts "Distance from home: #{distance}\nEnergy left: #{energy}"
+  elsif input == "eat"
+    energy += 10
+    puts "Distance from home: #{distance}\nEnergy left: #{energy}"
   elsif input != "go home"
     puts "Incorrect command"
     puts "Distance from home: #{distance}\nEnergy left: #{energy}"
